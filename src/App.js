@@ -10,6 +10,7 @@ function App() {
       <header className="App-header">
         <h1> Canadian sports</h1>
         <img src={picture} className="App-logo" alt="sports in Canada" />
+        {/* Replace the paragraph by the description component */}
         <Description />
         <div className="buttons">
           <button onClick={(e) => alert(e.target.innerHTML+" clicked!")}>Ice Hockey</button>
