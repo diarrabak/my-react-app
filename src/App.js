@@ -1,22 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import picture from "./images/sport-canada.png";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <h1> Canadian sports</h1>
+        <img src={picture} className="App-logo" alt="sports in Canada" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Canada has a wide variety of games. It ranges from summer to winter
+          sports. The most common sports are ice hockey, lacrosse, soccer,
+          basketball, and ice hockey.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );

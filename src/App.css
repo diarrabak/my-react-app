@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm&family=Estonia&display=swap');
+
 .App {
   text-align: center;
+  font-family:'Times New Roman', Times, serif;
 }
 
 .App-logo {
@@ -7,14 +10,14 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
 .App-header {
-  background-color: #282c34;
+  background-color:#ADD8E6;;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,15 +27,36 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App-header p{
+  width: 50%;
+  margin: 0 auto;
+  color: black;
 }
 
-@keyframes App-logo-spin {
+.App-header h1{
+  color: red;
+  text-align: center;
+  font-family: Charm, Estonia, 'Times New Roman', Times, serif;
+}
+
+.buttons {
+  margin-top: 1em;
+}
+.buttons button{
+  display: inline-block;
+  margin-left: 2em;
+
+  padding:0.25em;
+  font-size: 1.25em;
+  border: 10px solid red;
+  border-radius: 10px;
+  
+}
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */
